@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WasteClassifier</string>
+    <string name="REMOTE_MODEL_NAME">Waste_2019510164317</string>
+    <!--<string name="LOCAL_MODEL_NAME">my_local_model</string>-->
+    <string name="confirm_file_permission">Please grant file access for the app in your device.</string>
+    <string name="confirm_camera_permission">Please grant camera access for the app in your device.</string>
+</resources>

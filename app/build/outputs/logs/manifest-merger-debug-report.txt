@@ -1,0 +1,532 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:27:9-35:20
+	android:grantUriPermissions
+		ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:31:13-47
+	android:authorities
+		INJECTED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml
+		ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:29:13-60
+	android:exported
+		ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:28:13-62
+manifest
+ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:2:1-41:12
+MERGED from [com.firebaseui:firebase-ui-database:4.3.2] /Users/clair/.gradle/caches/transforms-2/files-2.1/01800b79ff1448d4bf6d41591801da01/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-ml-vision-automl:16.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/52599ea761e53898c23b237703cb3430/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-ml-vision:20.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/861583aa702e424f2add6d02b02c60a7/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-ml-model-interpreter:19.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/8f39c0a047c1b84ef81eb37609995f27/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/clair/.gradle/caches/transforms-2/files-2.1/507157eef3cfc9ff23897e432d076462/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/clair/.gradle/caches/transforms-2/files-2.1/097cf6fdd0f67dd0197fe8b01917cd7d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/clair/.gradle/caches/transforms-2/files-2.1/1c086556b08e22a7673951cbb56ccf8b/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/49f16393e2730a10ec7af2d18be89dcb/AndroidManifest.xml:15:1-36:12
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3667ec8bddbd51cfd598c29ffd63e467/AndroidManifest.xml:15:1-37:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha05] /Users/clair/.gradle/caches/transforms-2/files-2.1/476b06b5915097364ab9651c0cd8cec9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.firebaseui:firebase-ui-common:4.3.2] /Users/clair/.gradle/caches/transforms-2/files-2.1/b28d3204ec1b3ffa158794ecc281d5bd/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/b8d808b2fd3a48af49e8fe1bc3e860a2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/fe345d69ef41d0ede5defb68b5f3a0cd/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /Users/clair/.gradle/caches/transforms-2/files-2.1/d3cb65bb2e6d2a5e5c649cf93cfaa2b2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] /Users/clair/.gradle/caches/transforms-2/files-2.1/bbf836978e610515654aac046787ead8/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /Users/clair/.gradle/caches/transforms-2/files-2.1/4de1989e577a2740a947602465ac0e0b/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-ml-common:19.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/2d2c27df13d9ce9227cd35d883c476ae/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/ff89dcdfeee3656bcabb735d63404b02/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/abc00a3421013771207e945e4253a829/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/clair/.gradle/caches/transforms-2/files-2.1/297fc654b7e14bd835c883c35ed5d201/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3288841aa305dea0606a4ef3c9351087/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/e91794a5f74a179e5222cc7521b81fb8/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/977109747f4e455d647429e0727bc1c7/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7ce4734822691269e3a9a7cb9b00716/AndroidManifest.xml:17:1-47:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/clair/.gradle/caches/transforms-2/files-2.1/ba79a68048fc0060b36f8d126913b4f6/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/4e3e5a1f16e901dd75612ca673590f84/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3186637f18a2f6476f59f53f761c7804/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/1293d0f411ca40df42b4e2e47260c4a3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3577c8b0cc58c4eac456411e5344b9a0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d10de1a49a475570ed1582bf3ff6f818/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/clair/.gradle/caches/transforms-2/files-2.1/576061a0f539289282b22244b48bde9d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/eb41bb58f12812350a26ebdf1390e97d/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7e0e22bcc2a3ad071f8d12f26c7029a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/clair/.gradle/caches/transforms-2/files-2.1/29ac295005a1ba9fe91251dca047b25e/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/b46adc7fb8d585cf09690e916bd7742f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/dd246cf09965932211389a1b652a30dd/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/7c36a1de7ad09b2531e7a335e8d2bc8d/AndroidManifest.xml:17:1-22:12
+MERGED from [org.tensorflow:tensorflow-lite:1.13.1] /Users/clair/.gradle/caches/transforms-2/files-2.1/227c108ae7c923521576ed37ec3d2e3c/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/cc1f02f2cba6d96aa25a40ad73d5d64d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/60b64baf90704224b36ec7fb069a7a3c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/559eacc2a7db7645436ff47f95edd155/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/11acbf5d835bde72ea8b7b5b7d936ffd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/clair/.gradle/caches/transforms-2/files-2.1/539978b9ad21ec997500d75d10e304e7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/6abf39ca9950e7bce8176a0392ded31c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/c58c6c886164299862b3ceabe2739faf/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/820b23ea6a14464dff799c8a2d39db2a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/824b6e1f39cf441538e5d4611831cdce/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/1605df28bd7190d95b42a9c4cf95bcd5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/6d71e9a69745ca25b40c7d19ea365e45/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/0f64f00ac77a40105c2daa02eb5510a4/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/31adc872aede830a6a4b01519cda4d8a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/411f4be444dad27ba2876532b3d138ed/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0-beta01] /Users/clair/.gradle/caches/transforms-2/files-2.1/30908ea76aea618529d155719b64ef7c/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] /Users/clair/.gradle/caches/transforms-2/files-2.1/dcc842ce2596fddec352f8b89c67dfa8/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/cf1eff13242267d040679ccfb2d61e6f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/7df5f7a8209cb0f999adde11f4be696a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/bcfca45e977a18f9f150ca156ee6a7e9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/cb2cbf34134dbc587aacea23926f2823/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/2b01af91aec24158b7fde46af766824d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d3b6110510569a697e70f2811e2dcfb7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d188f7ad1b0939a4d109598dbd69a3b8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/c760729b61e863ca1ec40352a60a389d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/5002ef0c89d34571d2ec062aa8cc3c79/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/2b8023308ca7eeaa0f8386f72515d807/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/57e265dc89a736067b35a4492903f701/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:2:1-41:12
+INJECTED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:2:1-41:12
+	package
+		ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:3:5-42
+		INJECTED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml
+		ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:2:1-41:12
+		INJECTED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml
+		ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:2:1-41:12
+		INJECTED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:5:22-62
+uses-permission#android.permission.INTERNET
+ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.firebaseui:firebase-ui-database:4.3.2] /Users/clair/.gradle/caches/transforms-2/files-2.1/01800b79ff1448d4bf6d41591801da01/AndroidManifest.xml:11:5-67
+MERGED from [com.firebaseui:firebase-ui-database:4.3.2] /Users/clair/.gradle/caches/transforms-2/files-2.1/01800b79ff1448d4bf6d41591801da01/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/49f16393e2730a10ec7af2d18be89dcb/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/49f16393e2730a10ec7af2d18be89dcb/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3667ec8bddbd51cfd598c29ffd63e467/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3667ec8bddbd51cfd598c29ffd63e467/AndroidManifest.xml:27:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/977109747f4e455d647429e0727bc1c7/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/977109747f4e455d647429e0727bc1c7/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7ce4734822691269e3a9a7cb9b00716/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7ce4734822691269e3a9a7cb9b00716/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d10de1a49a475570ed1582bf3ff6f818/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d10de1a49a475570ed1582bf3ff6f818/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/eb41bb58f12812350a26ebdf1390e97d/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/eb41bb58f12812350a26ebdf1390e97d/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:7:22-78
+application
+ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:10:5-37:19
+MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/clair/.gradle/caches/transforms-2/files-2.1/507157eef3cfc9ff23897e432d076462/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/clair/.gradle/caches/transforms-2/files-2.1/507157eef3cfc9ff23897e432d076462/AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/clair/.gradle/caches/transforms-2/files-2.1/1c086556b08e22a7673951cbb56ccf8b/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/clair/.gradle/caches/transforms-2/files-2.1/1c086556b08e22a7673951cbb56ccf8b/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/49f16393e2730a10ec7af2d18be89dcb/AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/49f16393e2730a10ec7af2d18be89dcb/AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3667ec8bddbd51cfd598c29ffd63e467/AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3667ec8bddbd51cfd598c29ffd63e467/AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /Users/clair/.gradle/caches/transforms-2/files-2.1/d3cb65bb2e6d2a5e5c649cf93cfaa2b2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /Users/clair/.gradle/caches/transforms-2/files-2.1/d3cb65bb2e6d2a5e5c649cf93cfaa2b2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] /Users/clair/.gradle/caches/transforms-2/files-2.1/bbf836978e610515654aac046787ead8/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] /Users/clair/.gradle/caches/transforms-2/files-2.1/bbf836978e610515654aac046787ead8/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /Users/clair/.gradle/caches/transforms-2/files-2.1/4de1989e577a2740a947602465ac0e0b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /Users/clair/.gradle/caches/transforms-2/files-2.1/4de1989e577a2740a947602465ac0e0b/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/ff89dcdfeee3656bcabb735d63404b02/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/ff89dcdfeee3656bcabb735d63404b02/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/abc00a3421013771207e945e4253a829/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/abc00a3421013771207e945e4253a829/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3288841aa305dea0606a4ef3c9351087/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3288841aa305dea0606a4ef3c9351087/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/e91794a5f74a179e5222cc7521b81fb8/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/e91794a5f74a179e5222cc7521b81fb8/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/977109747f4e455d647429e0727bc1c7/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/977109747f4e455d647429e0727bc1c7/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7ce4734822691269e3a9a7cb9b00716/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7ce4734822691269e3a9a7cb9b00716/AndroidManifest.xml:28:5-45:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/clair/.gradle/caches/transforms-2/files-2.1/ba79a68048fc0060b36f8d126913b4f6/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/clair/.gradle/caches/transforms-2/files-2.1/ba79a68048fc0060b36f8d126913b4f6/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/4e3e5a1f16e901dd75612ca673590f84/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/4e3e5a1f16e901dd75612ca673590f84/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3186637f18a2f6476f59f53f761c7804/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3186637f18a2f6476f59f53f761c7804/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/1293d0f411ca40df42b4e2e47260c4a3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/1293d0f411ca40df42b4e2e47260c4a3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3577c8b0cc58c4eac456411e5344b9a0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3577c8b0cc58c4eac456411e5344b9a0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d10de1a49a475570ed1582bf3ff6f818/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d10de1a49a475570ed1582bf3ff6f818/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/clair/.gradle/caches/transforms-2/files-2.1/576061a0f539289282b22244b48bde9d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/clair/.gradle/caches/transforms-2/files-2.1/576061a0f539289282b22244b48bde9d/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/eb41bb58f12812350a26ebdf1390e97d/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/eb41bb58f12812350a26ebdf1390e97d/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7e0e22bcc2a3ad071f8d12f26c7029a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7e0e22bcc2a3ad071f8d12f26c7029a/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/clair/.gradle/caches/transforms-2/files-2.1/29ac295005a1ba9fe91251dca047b25e/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/clair/.gradle/caches/transforms-2/files-2.1/29ac295005a1ba9fe91251dca047b25e/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/b46adc7fb8d585cf09690e916bd7742f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/b46adc7fb8d585cf09690e916bd7742f/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/dd246cf09965932211389a1b652a30dd/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/dd246cf09965932211389a1b652a30dd/AndroidManifest.xml:22:5-26:19
+MERGED from [org.tensorflow:tensorflow-lite:1.13.1] /Users/clair/.gradle/caches/transforms-2/files-2.1/227c108ae7c923521576ed37ec3d2e3c/AndroidManifest.xml:9:5-20
+MERGED from [org.tensorflow:tensorflow-lite:1.13.1] /Users/clair/.gradle/caches/transforms-2/files-2.1/227c108ae7c923521576ed37ec3d2e3c/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0-beta01] /Users/clair/.gradle/caches/transforms-2/files-2.1/30908ea76aea618529d155719b64ef7c/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.1.0-beta01] /Users/clair/.gradle/caches/transforms-2/files-2.1/30908ea76aea618529d155719b64ef7c/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] /Users/clair/.gradle/caches/transforms-2/files-2.1/dcc842ce2596fddec352f8b89c67dfa8/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] /Users/clair/.gradle/caches/transforms-2/files-2.1/dcc842ce2596fddec352f8b89c67dfa8/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0-beta01] /Users/clair/.gradle/caches/transforms-2/files-2.1/30908ea76aea618529d155719b64ef7c/AndroidManifest.xml:22:18-86
+	android:supportsRtl
+		ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:13:9-41
+	android:roundIcon
+		ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:14:9-54
+	android:icon
+		ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:16:9-40
+activity#com.example.wasteclassifier.MainActivity
+ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:17:9-23:20
+	android:name
+		ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:17:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:21:27-74
+activity#com.example.wasteclassifier.AutoMLActivity
+ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:24:9-52
+	android:name
+		ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:24:19-49
+uses-sdk
+INJECTED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml
+INJECTED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml
+MERGED from [com.firebaseui:firebase-ui-database:4.3.2] /Users/clair/.gradle/caches/transforms-2/files-2.1/01800b79ff1448d4bf6d41591801da01/AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-database:4.3.2] /Users/clair/.gradle/caches/transforms-2/files-2.1/01800b79ff1448d4bf6d41591801da01/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-ml-vision-automl:16.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/52599ea761e53898c23b237703cb3430/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision-automl:16.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/52599ea761e53898c23b237703cb3430/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision:20.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/861583aa702e424f2add6d02b02c60a7/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision:20.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/861583aa702e424f2add6d02b02c60a7/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-model-interpreter:19.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/8f39c0a047c1b84ef81eb37609995f27/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-model-interpreter:19.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/8f39c0a047c1b84ef81eb37609995f27/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/clair/.gradle/caches/transforms-2/files-2.1/507157eef3cfc9ff23897e432d076462/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.9] /Users/clair/.gradle/caches/transforms-2/files-2.1/507157eef3cfc9ff23897e432d076462/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/clair/.gradle/caches/transforms-2/files-2.1/097cf6fdd0f67dd0197fe8b01917cd7d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/clair/.gradle/caches/transforms-2/files-2.1/097cf6fdd0f67dd0197fe8b01917cd7d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/clair/.gradle/caches/transforms-2/files-2.1/1c086556b08e22a7673951cbb56ccf8b/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] /Users/clair/.gradle/caches/transforms-2/files-2.1/1c086556b08e22a7673951cbb56ccf8b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/49f16393e2730a10ec7af2d18be89dcb/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/49f16393e2730a10ec7af2d18be89dcb/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3667ec8bddbd51cfd598c29ffd63e467/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3667ec8bddbd51cfd598c29ffd63e467/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha05] /Users/clair/.gradle/caches/transforms-2/files-2.1/476b06b5915097364ab9651c0cd8cec9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha05] /Users/clair/.gradle/caches/transforms-2/files-2.1/476b06b5915097364ab9651c0cd8cec9/AndroidManifest.xml:20:5-44
+MERGED from [com.firebaseui:firebase-ui-common:4.3.2] /Users/clair/.gradle/caches/transforms-2/files-2.1/b28d3204ec1b3ffa158794ecc281d5bd/AndroidManifest.xml:7:5-9:41
+MERGED from [com.firebaseui:firebase-ui-common:4.3.2] /Users/clair/.gradle/caches/transforms-2/files-2.1/b28d3204ec1b3ffa158794ecc281d5bd/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/b8d808b2fd3a48af49e8fe1bc3e860a2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/b8d808b2fd3a48af49e8fe1bc3e860a2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/fe345d69ef41d0ede5defb68b5f3a0cd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/fe345d69ef41d0ede5defb68b5f3a0cd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /Users/clair/.gradle/caches/transforms-2/files-2.1/d3cb65bb2e6d2a5e5c649cf93cfaa2b2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /Users/clair/.gradle/caches/transforms-2/files-2.1/d3cb65bb2e6d2a5e5c649cf93cfaa2b2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] /Users/clair/.gradle/caches/transforms-2/files-2.1/bbf836978e610515654aac046787ead8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] /Users/clair/.gradle/caches/transforms-2/files-2.1/bbf836978e610515654aac046787ead8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /Users/clair/.gradle/caches/transforms-2/files-2.1/4de1989e577a2740a947602465ac0e0b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /Users/clair/.gradle/caches/transforms-2/files-2.1/4de1989e577a2740a947602465ac0e0b/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ml-common:19.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/2d2c27df13d9ce9227cd35d883c476ae/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-common:19.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/2d2c27df13d9ce9227cd35d883c476ae/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/ff89dcdfeee3656bcabb735d63404b02/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/ff89dcdfeee3656bcabb735d63404b02/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/abc00a3421013771207e945e4253a829/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/abc00a3421013771207e945e4253a829/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/clair/.gradle/caches/transforms-2/files-2.1/297fc654b7e14bd835c883c35ed5d201/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/clair/.gradle/caches/transforms-2/files-2.1/297fc654b7e14bd835c883c35ed5d201/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3288841aa305dea0606a4ef3c9351087/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3288841aa305dea0606a4ef3c9351087/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/e91794a5f74a179e5222cc7521b81fb8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/e91794a5f74a179e5222cc7521b81fb8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/977109747f4e455d647429e0727bc1c7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/977109747f4e455d647429e0727bc1c7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7ce4734822691269e3a9a7cb9b00716/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7ce4734822691269e3a9a7cb9b00716/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/clair/.gradle/caches/transforms-2/files-2.1/ba79a68048fc0060b36f8d126913b4f6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/clair/.gradle/caches/transforms-2/files-2.1/ba79a68048fc0060b36f8d126913b4f6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/4e3e5a1f16e901dd75612ca673590f84/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/4e3e5a1f16e901dd75612ca673590f84/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3186637f18a2f6476f59f53f761c7804/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3186637f18a2f6476f59f53f761c7804/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/1293d0f411ca40df42b4e2e47260c4a3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/1293d0f411ca40df42b4e2e47260c4a3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3577c8b0cc58c4eac456411e5344b9a0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3577c8b0cc58c4eac456411e5344b9a0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d10de1a49a475570ed1582bf3ff6f818/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d10de1a49a475570ed1582bf3ff6f818/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/clair/.gradle/caches/transforms-2/files-2.1/576061a0f539289282b22244b48bde9d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/clair/.gradle/caches/transforms-2/files-2.1/576061a0f539289282b22244b48bde9d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/eb41bb58f12812350a26ebdf1390e97d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/eb41bb58f12812350a26ebdf1390e97d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7e0e22bcc2a3ad071f8d12f26c7029a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7e0e22bcc2a3ad071f8d12f26c7029a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/clair/.gradle/caches/transforms-2/files-2.1/29ac295005a1ba9fe91251dca047b25e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/clair/.gradle/caches/transforms-2/files-2.1/29ac295005a1ba9fe91251dca047b25e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/b46adc7fb8d585cf09690e916bd7742f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/b46adc7fb8d585cf09690e916bd7742f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/dd246cf09965932211389a1b652a30dd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/dd246cf09965932211389a1b652a30dd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/7c36a1de7ad09b2531e7a335e8d2bc8d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/7c36a1de7ad09b2531e7a335e8d2bc8d/AndroidManifest.xml:20:5-44
+MERGED from [org.tensorflow:tensorflow-lite:1.13.1] /Users/clair/.gradle/caches/transforms-2/files-2.1/227c108ae7c923521576ed37ec3d2e3c/AndroidManifest.xml:5:5-7:41
+MERGED from [org.tensorflow:tensorflow-lite:1.13.1] /Users/clair/.gradle/caches/transforms-2/files-2.1/227c108ae7c923521576ed37ec3d2e3c/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/cc1f02f2cba6d96aa25a40ad73d5d64d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/cc1f02f2cba6d96aa25a40ad73d5d64d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/60b64baf90704224b36ec7fb069a7a3c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/60b64baf90704224b36ec7fb069a7a3c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/559eacc2a7db7645436ff47f95edd155/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/559eacc2a7db7645436ff47f95edd155/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/11acbf5d835bde72ea8b7b5b7d936ffd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/11acbf5d835bde72ea8b7b5b7d936ffd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/clair/.gradle/caches/transforms-2/files-2.1/539978b9ad21ec997500d75d10e304e7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/clair/.gradle/caches/transforms-2/files-2.1/539978b9ad21ec997500d75d10e304e7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/6abf39ca9950e7bce8176a0392ded31c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/6abf39ca9950e7bce8176a0392ded31c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/c58c6c886164299862b3ceabe2739faf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/c58c6c886164299862b3ceabe2739faf/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/820b23ea6a14464dff799c8a2d39db2a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/820b23ea6a14464dff799c8a2d39db2a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/824b6e1f39cf441538e5d4611831cdce/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/824b6e1f39cf441538e5d4611831cdce/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/1605df28bd7190d95b42a9c4cf95bcd5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/1605df28bd7190d95b42a9c4cf95bcd5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/6d71e9a69745ca25b40c7d19ea365e45/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/6d71e9a69745ca25b40c7d19ea365e45/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/0f64f00ac77a40105c2daa02eb5510a4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/0f64f00ac77a40105c2daa02eb5510a4/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/31adc872aede830a6a4b01519cda4d8a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/31adc872aede830a6a4b01519cda4d8a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/411f4be444dad27ba2876532b3d138ed/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/411f4be444dad27ba2876532b3d138ed/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-beta01] /Users/clair/.gradle/caches/transforms-2/files-2.1/30908ea76aea618529d155719b64ef7c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-beta01] /Users/clair/.gradle/caches/transforms-2/files-2.1/30908ea76aea618529d155719b64ef7c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] /Users/clair/.gradle/caches/transforms-2/files-2.1/dcc842ce2596fddec352f8b89c67dfa8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-beta01] /Users/clair/.gradle/caches/transforms-2/files-2.1/dcc842ce2596fddec352f8b89c67dfa8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/cf1eff13242267d040679ccfb2d61e6f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/cf1eff13242267d040679ccfb2d61e6f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/7df5f7a8209cb0f999adde11f4be696a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/7df5f7a8209cb0f999adde11f4be696a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/bcfca45e977a18f9f150ca156ee6a7e9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/bcfca45e977a18f9f150ca156ee6a7e9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/cb2cbf34134dbc587aacea23926f2823/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/cb2cbf34134dbc587aacea23926f2823/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/2b01af91aec24158b7fde46af766824d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/2b01af91aec24158b7fde46af766824d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d3b6110510569a697e70f2811e2dcfb7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d3b6110510569a697e70f2811e2dcfb7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d188f7ad1b0939a4d109598dbd69a3b8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d188f7ad1b0939a4d109598dbd69a3b8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/c760729b61e863ca1ec40352a60a389d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/c760729b61e863ca1ec40352a60a389d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/5002ef0c89d34571d2ec062aa8cc3c79/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/5002ef0c89d34571d2ec062aa8cc3c79/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/2b8023308ca7eeaa0f8386f72515d807/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/2b8023308ca7eeaa0f8386f72515d807/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/57e265dc89a736067b35a4492903f701/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/57e265dc89a736067b35a4492903f701/AndroidManifest.xml:5:5-44
+INJECTED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml
+INJECTED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml
+		ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml
+		ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:32:13-34:58
+	android:resource
+		ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:34:17-55
+	android:name
+		ADDED from /Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/AndroidManifest.xml:33:17-67
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/49f16393e2730a10ec7af2d18be89dcb/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3667ec8bddbd51cfd598c29ffd63e467/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3667ec8bddbd51cfd598c29ffd63e467/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/977109747f4e455d647429e0727bc1c7/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/977109747f4e455d647429e0727bc1c7/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7ce4734822691269e3a9a7cb9b00716/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7ce4734822691269e3a9a7cb9b00716/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d10de1a49a475570ed1582bf3ff6f818/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d10de1a49a475570ed1582bf3ff6f818/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/eb41bb58f12812350a26ebdf1390e97d/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/eb41bb58f12812350a26ebdf1390e97d/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-database:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/49f16393e2730a10ec7af2d18be89dcb/AndroidManifest.xml:25:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/49f16393e2730a10ec7af2d18be89dcb/AndroidManifest.xml:29:9-33:19
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3667ec8bddbd51cfd598c29ffd63e467/AndroidManifest.xml:30:9-34:19
+MERGED from [com.google.firebase:firebase-storage:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3667ec8bddbd51cfd598c29ffd63e467/AndroidManifest.xml:30:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/977109747f4e455d647429e0727bc1c7/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/977109747f4e455d647429e0727bc1c7/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7ce4734822691269e3a9a7cb9b00716/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7ce4734822691269e3a9a7cb9b00716/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/977109747f4e455d647429e0727bc1c7/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-database:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/49f16393e2730a10ec7af2d18be89dcb/AndroidManifest.xml:29:18-89
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/49f16393e2730a10ec7af2d18be89dcb/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/49f16393e2730a10ec7af2d18be89dcb/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/49f16393e2730a10ec7af2d18be89dcb/AndroidManifest.xml:31:17-109
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3667ec8bddbd51cfd598c29ffd63e467/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3667ec8bddbd51cfd598c29ffd63e467/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3667ec8bddbd51cfd598c29ffd63e467/AndroidManifest.xml:32:17-107
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/977109747f4e455d647429e0727bc1c7/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7ce4734822691269e3a9a7cb9b00716/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7ce4734822691269e3a9a7cb9b00716/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d10de1a49a475570ed1582bf3ff6f818/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d10de1a49a475570ed1582bf3ff6f818/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/eb41bb58f12812350a26ebdf1390e97d/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/eb41bb58f12812350a26ebdf1390e97d/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/977109747f4e455d647429e0727bc1c7/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/977109747f4e455d647429e0727bc1c7/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/977109747f4e455d647429e0727bc1c7/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/977109747f4e455d647429e0727bc1c7/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7ce4734822691269e3a9a7cb9b00716/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7ce4734822691269e3a9a7cb9b00716/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7ce4734822691269e3a9a7cb9b00716/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7ce4734822691269e3a9a7cb9b00716/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7ce4734822691269e3a9a7cb9b00716/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7ce4734822691269e3a9a7cb9b00716/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7ce4734822691269e3a9a7cb9b00716/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7ce4734822691269e3a9a7cb9b00716/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7ce4734822691269e3a9a7cb9b00716/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7ce4734822691269e3a9a7cb9b00716/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7ce4734822691269e3a9a7cb9b00716/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d7ce4734822691269e3a9a7cb9b00716/AndroidManifest.xml:42:25-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/4e3e5a1f16e901dd75612ca673590f84/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/4e3e5a1f16e901dd75612ca673590f84/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/4e3e5a1f16e901dd75612ca673590f84/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/4e3e5a1f16e901dd75612ca673590f84/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3186637f18a2f6476f59f53f761c7804/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3186637f18a2f6476f59f53f761c7804/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3186637f18a2f6476f59f53f761c7804/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3186637f18a2f6476f59f53f761c7804/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:18.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/3186637f18a2f6476f59f53f761c7804/AndroidManifest.xml:13:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d10de1a49a475570ed1582bf3ff6f818/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d10de1a49a475570ed1582bf3ff6f818/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/eb41bb58f12812350a26ebdf1390e97d/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/eb41bb58f12812350a26ebdf1390e97d/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d10de1a49a475570ed1582bf3ff6f818/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/d10de1a49a475570ed1582bf3ff6f818/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/eb41bb58f12812350a26ebdf1390e97d/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/eb41bb58f12812350a26ebdf1390e97d/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.5.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/a96cf980e61e7891ea0f59591fc0dd8a/AndroidManifest.xml:49:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/dd246cf09965932211389a1b652a30dd/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/dd246cf09965932211389a1b652a30dd/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/clair/.gradle/caches/transforms-2/files-2.1/dd246cf09965932211389a1b652a30dd/AndroidManifest.xml:24:13-58

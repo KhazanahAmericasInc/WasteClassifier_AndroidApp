@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "845951994667",
+    "firebase_url": "https://trymlkit-d2421.firebaseio.com",
+    "project_id": "trymlkit-d2421",
+    "storage_bucket": "trymlkit-d2421.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845951994667:android:8aeec4fab161d368",
+        "android_client_info": {
+          "package_name": "com.example.wasteclassifier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845951994667-5lebeum4esk3o92588rtd11j1rbb2hf2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp4Xe4i4qzu9oHZpCQHl1q7rAMU5GpMvE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845951994667-5lebeum4esk3o92588rtd11j1rbb2hf2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
