@@ -70,5 +70,6 @@ You need to prepare your dataset to classification. The limitation of the datase
 ![Publish model so we can use remotely in android app](https://github.com/clair-hu/WasteClassifierMLKitApp/blob/master/img/model_publish.png)
 
 ## Reference
+* Front page image copyright: https://www.cnbc.com/2018/07/13/how-san-francisco-became-a-global-leader-in-waste-management.html
 
 * Codes partially depend on https://github.com/jirawatee/ML-Kit-for-Firebase-Android.git by jirawatee.

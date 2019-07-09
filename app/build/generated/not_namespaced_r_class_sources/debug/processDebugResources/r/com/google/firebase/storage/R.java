@@ -138,26 +138,26 @@ public final class R {
         public static final int icon = 0x7f07006f;
         public static final int icon_group = 0x7f070070;
         public static final int icon_only = 0x7f070071;
-        public static final int info = 0x7f070075;
-        public static final int italic = 0x7f070077;
-        public static final int light = 0x7f07007a;
-        public static final int line1 = 0x7f07007b;
-        public static final int line3 = 0x7f07007c;
+        public static final int info = 0x7f070076;
+        public static final int italic = 0x7f070078;
+        public static final int light = 0x7f07007b;
+        public static final int line1 = 0x7f07007c;
+        public static final int line3 = 0x7f07007d;
         public static final int media_actions = 0x7f070080;
-        public static final int none = 0x7f070085;
-        public static final int normal = 0x7f070086;
-        public static final int notification_background = 0x7f070087;
-        public static final int notification_main_column = 0x7f070088;
-        public static final int notification_main_column_container = 0x7f070089;
-        public static final int right_icon = 0x7f070093;
-        public static final int right_side = 0x7f070094;
+        public static final int none = 0x7f070086;
+        public static final int normal = 0x7f070087;
+        public static final int notification_background = 0x7f070088;
+        public static final int notification_main_column = 0x7f070089;
+        public static final int notification_main_column_container = 0x7f07008a;
+        public static final int right_icon = 0x7f070094;
+        public static final int right_side = 0x7f070095;
         public static final int standard = 0x7f0700b0;
         public static final int status_bar_latest_event_content = 0x7f0700b2;
         public static final int text = 0x7f0700be;
         public static final int text2 = 0x7f0700bf;
         public static final int time = 0x7f0700c4;
         public static final int title = 0x7f0700c5;
-        public static final int wide = 0x7f0700d0;
+        public static final int wide = 0x7f0700d6;
     }
     public static final class integer {
         private integer() {}

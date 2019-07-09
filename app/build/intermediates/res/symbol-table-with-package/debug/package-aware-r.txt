@@ -700,6 +700,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable start_page
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 id ALT
@@ -818,6 +819,7 @@ id icon_group
 id icon_only
 id ifRoom
 id image
+id imageView2
 id image_view
 id info
 id invisible
@@ -827,7 +829,6 @@ id left
 id light
 id line1
 id line3
-id linearLayout
 id listMode
 id list_item
 id media_actions
@@ -835,6 +836,7 @@ id message
 id middle
 id multiply
 id never
+id no_button
 id none
 id normal
 id notification_background
@@ -866,7 +868,6 @@ id search_plate
 id search_src_text
 id search_voice_btn
 id select_dialog_listview
-id send_button
 id shortcut
 id showCustom
 id showHome
@@ -908,12 +909,19 @@ id trash_radio_button
 id uniform
 id unknown_radio_button
 id up
+id upload_button
+id upload_linear_layout
 id useLogo
+id validate_button
+id validate_group
+id validate_linear_layout
+id validate_text_view
 id waste_type_group
 id wide
 id withText
 id wrap
 id wrap_content
+id yes_button
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer cancel_button_image_alpha

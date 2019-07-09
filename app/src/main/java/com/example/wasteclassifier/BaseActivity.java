@@ -115,7 +115,7 @@ public class BaseActivity extends AppCompatActivity {
         alert.show();
     }
 
-    private void openCamera() {
+    public void openCamera() {
         imageFile = createNewImageFile(imageFile);
         Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         Uri photo = FileProvider.getUriForFile(this, getPackageName() + ".provider", imageFile);

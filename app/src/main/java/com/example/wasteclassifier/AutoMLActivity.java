@@ -12,6 +12,7 @@ import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -55,6 +56,11 @@ public class AutoMLActivity extends BaseActivity {
     private TextView mTextView;
     private Button mSendButton;
     private RadioGroup wasteTypeGroup;
+    private RadioGroup validateGroup;
+    private LinearLayout validateLinearLayout;
+    private LinearLayout uploadLinearLayout;
+    private Button validateButton;
+    private TextView validateTextView;
 
     // constants
     private static final String REMOTE_MODEL_NAME = "Waste_2019510164317";
@@ -75,12 +81,30 @@ public class AutoMLActivity extends BaseActivity {
         // connect to view
         setContentView(R.layout.activity_automl);
         mImageView = findViewById(R.id.image_view);
+
+        mImageView.setClickable(true);
+        mImageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openCamera();
+            }
+        });
+
         mTextView = findViewById(R.id.text_view);
-        mSendButton = findViewById(R.id.send_button);
+        mSendButton = findViewById(R.id.upload_button);
+        validateButton = findViewById(R.id.validate_button);
+
+        validateLinearLayout = findViewById(R.id.validate_linear_layout);
+        uploadLinearLayout = findViewById(R.id.upload_linear_layout);
 
         wasteTypeGroup = findViewById(R.id.waste_type_group);
-        mSendButton.setVisibility(View.INVISIBLE);
-        wasteTypeGroup.setVisibility(View.INVISIBLE);
+        uploadLinearLayout.setVisibility(View.GONE);
+
+        validateGroup = findViewById(R.id.validate_group);
+        validateLinearLayout.setVisibility(View.GONE);
+        validateTextView = findViewById(R.id.validate_text_view);
+        validateTextView.setVisibility(View.GONE);
+
 
         // configure firebase-hosted model source
 
@@ -233,19 +257,66 @@ public class AutoMLActivity extends BaseActivity {
             mTextView.setText("Object is " + label.getText() + "\n");
             mTextView.append("Confidence is " + label.getConfidence() + "\n");
             mTextView.setTextColor(Color.BLACK);
+            validateTextView.setVisibility(View.VISIBLE);
+            validateTextView.setText("Is the prediction correct?");
+            validateTextView.setTextColor(Color.BLACK);
+            validateLinearLayout.setVisibility(View.VISIBLE);
+
+            validatePrediction(bitmap);
         }
 
         // if no label detected, the classifier cannot predict the waste's type
         if (0 == labels.size()) {
+            uploadLinearLayout.setVisibility(View.VISIBLE);
             mTextView.setText("Unable to predict the type of waste. Can you help us collecting data if you know the answer?");
             mTextView.setTextColor(Color.RED);
 
-            mSendButton.setVisibility(View.VISIBLE);
-            wasteTypeGroup.setVisibility(View.VISIBLE);
             uploadImageAndTypeToStorage(bitmap);
         }
     }
 
+
+    private void validatePrediction(final Bitmap bitmap){
+        getValidateResult();
+        sendValidateResult(bitmap);
+    }
+
+    private void getValidateResult() {
+        validateGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(RadioGroup radioGroup, int i) {
+                if (i == -1) {
+                    validateButton.setEnabled(false);
+                }
+                else {
+                    validateButton.setEnabled(true);
+                }
+            }
+        });
+    }
+
+    private void sendValidateResult(final Bitmap bitmap) {
+        validateButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                int selectedId = validateGroup.getCheckedRadioButtonId();
+                RadioButton radioButton = validateGroup.findViewById(selectedId);
+                String yesOrNo = radioButton.getText().toString();
+                if (yesOrNo.equals("No")) {
+                    validateLinearLayout.setVisibility(View.GONE);
+                    uploadLinearLayout.setVisibility(View.VISIBLE);
+                    mTextView.setText("Can you help us collecting data if you know the answer?");
+                    uploadImageAndTypeToStorage(bitmap);
+                }
+                else {
+                    validateTextView.setVisibility(View.GONE);
+                    validateLinearLayout.setVisibility(View.GONE);
+                }
+                validateTextView.setVisibility(View.GONE);
+                validateGroup.clearCheck();
+            }
+        });
+    }
 
     /* upload the un-predictable image and its type to the firebase storage
        input: the image in the type of bitmap
@@ -280,7 +351,7 @@ public class AutoMLActivity extends BaseActivity {
                 byte[] data = baos.toByteArray();
 
                 UploadTask uploadTask = imageRef.putBytes(data, metadata);
-                radioButton.setChecked(false);
+                wasteTypeGroup.clearCheck();
                 uploadTask.addOnFailureListener(new OnFailureListener() {
                     @Override
                     public void onFailure(@NonNull Exception exception) {
@@ -291,8 +362,9 @@ public class AutoMLActivity extends BaseActivity {
                     public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                         mTextView.setText("Thank you for successfully uploading the data to our database.");
                         mTextView.setTextColor(Color.BLACK);
-                        mSendButton.setVisibility(View.INVISIBLE);
-                        wasteTypeGroup.setVisibility(View.INVISIBLE);
+                        uploadLinearLayout.setVisibility(View.GONE);
+//                        mSendButton.setVisibility(View.GONE);
+//                        wasteTypeGroup.setVisibility(View.GONE);
                     }
                 });
             }
@@ -329,12 +401,16 @@ public class AutoMLActivity extends BaseActivity {
         }).addOnFailureListener(new OnFailureListener() {
             @Override
             public void onFailure(@NonNull Exception e) {
-                mTextView.setText("Unable to predict the type of waste. Can you help us collecting data if you know the answer?");
-//                mTextView.setTextColor(Color.RED);
+                mTextView.setText("Unable to execute the model.");
             }
         });
 
     }
+
+//    public void displayToast(String message) {
+//        Toast.makeText(getApplicationContext(), message,
+//                Toast.LENGTH_SHORT).show();
+//    }
 
 
 

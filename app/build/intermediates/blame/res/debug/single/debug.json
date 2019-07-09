@@ -684,6 +684,10 @@
         "source": "/Users/clair/.gradle/caches/transforms-2/files-2.1/097cf6fdd0f67dd0197fe8b01917cd7d/res/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
+        "merged": "/Users/clair/AndroidStudioProjects/WasteClassifier/app/build/intermediates/res/merged/debug/drawable_start_page.png.flat",
+        "source": "/Users/clair/AndroidStudioProjects/WasteClassifier/app/src/main/res/drawable/start_page.png"
+    },
+    {
         "merged": "/Users/clair/AndroidStudioProjects/WasteClassifier/app/build/intermediates/res/merged/debug/color_abc_search_url_text.xml.flat",
         "source": "/Users/clair/.gradle/caches/transforms-2/files-2.1/097cf6fdd0f67dd0197fe8b01917cd7d/res/color/abc_search_url_text.xml"
     },
